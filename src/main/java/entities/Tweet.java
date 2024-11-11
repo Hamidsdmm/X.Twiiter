@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 
 public class Tweet {
 
-    private int tweet_Id;
+    private long tweet_Id;
     private String text;
 
     public Tweet(String text) {
