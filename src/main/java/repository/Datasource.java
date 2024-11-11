@@ -15,7 +15,7 @@ public class Datasource {
     }
 
     static {
-        final String DB_URL ="jdbc:postgresql://localhost:5432/twiiter";
+        final String DB_URL ="jdbc:postgresql://localhost:5432/postgres";
         final String USER = "postgres";
         final String PASS = "postgres";
         try {
